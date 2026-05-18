@@ -40,7 +40,7 @@ export function WorksDialog({ title, entry, index }: Props) {
             height={354}
           />
           <div className="works__layer">
-            <span>detail</span>
+            <span>詳細</span>
           </div>
         </div>
       </button>
@@ -57,9 +57,9 @@ export function WorksDialog({ title, entry, index }: Props) {
             type="button"
             className="works-dialog__close"
             onClick={close}
-            aria-label="Close dialog"
+            aria-label="ダイアログを閉じる"
           >
-            <span>Close</span>
+            <span>閉じる</span>
           </button>
 
           <h2 className="works-dialog__title">{title}</h2>
@@ -137,10 +137,9 @@ export function WorksDialog({ title, entry, index }: Props) {
             ))}
             {isDesktop && (
               <div className="works-dialog__src">
-                <span>Movie</span>
+                <span>動画</span>
                 <small>
-                  * only captured App screen itself, but actually some popups, such as about error
-                  messages, is being shown up
+                  ※ 動画にはアプリ本体の画面のみが映っていますが、実際にはエラーメッセージなどのポップアップも表示されます。
                 </small>
                 <video controls>
                   <source src={`${base}${entry.imgPath}/movie.mp4`} type="video/mp4" />
@@ -151,7 +150,7 @@ export function WorksDialog({ title, entry, index }: Props) {
 
           <div className="works-dialog__closeWrap">
             <button type="button" className="portfolio-btn" onClick={close}>
-              <span>Close</span>
+              <span>閉じる</span>
             </button>
           </div>
         </div>

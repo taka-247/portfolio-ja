@@ -12,7 +12,7 @@ export function Strength() {
     <div className="strength">
       <h2 className="tab__hdg">MY STRENGTH</h2>
       <p className="tab__lead">
-        My Six Core Strength Making Valuable Contribution and Inspiration
+        価値ある貢献とインスピレーションをもたらす、6つの強み
       </p>
 
       <div className="strength__content">

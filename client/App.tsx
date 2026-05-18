@@ -41,7 +41,7 @@ export default function App() {
 
               <div className='tab__nameArea'>
                 <em className="tab__title" id={titleId}>
-                  Choose my feature
+                  私について
                 </em>
 
                 <div

@@ -17,7 +17,7 @@ export function Works() {
   return (
     <div className="works">
       <h2 className="tab__hdg">WORKS</h2>
-      <p className="tab__lead">My representative works, ranging various type of development</p>
+      <p className="tab__lead">代表的な制作実績</p>
 
       <ul className="works__list">
         {worksEntries.slice(0, visibleCount).map(([title, entry], i) => (
@@ -28,7 +28,7 @@ export function Works() {
       {hasMore && (
         <div className="works__moreWrap">
           <button type="button" className="portfolio-btn" onClick={handleMore}>
-            <span>More</span>
+            <span>もっと見る</span>
           </button>
         </div>
       )}

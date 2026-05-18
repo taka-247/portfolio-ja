@@ -9,7 +9,7 @@ export function Skill() {
   return (
     <div className="skill">
       <h2 className="tab__hdg">SKILL</h2>
-      <p className="tab__lead">My skill achieved through both client and private projects</p>
+      <p className="tab__lead">開発に使用するスキル</p>
 
       <ul className="skill__list">
         {skills.map((name, i) => (

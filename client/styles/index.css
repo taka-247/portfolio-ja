@@ -15,8 +15,8 @@
   --color-overlay: rgba(1, 15, 39, 0.7);
 
   /* Fonts */
-  --font-sans: "Open Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
-  --font-display: "Caveat", cursive;
+  --font-sans: "Zen Maru Gothic", "Open Sans", "Hiragino Maru Gothic ProN", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  --font-display: "Caveat", "Zen Maru Gothic", cursive;
 
   /* Breakpoints — 769px = "pc" in original */
   --breakpoint-pc: 769px;
@@ -685,6 +685,7 @@ body {
 }
 
 .experience__textArea {
+  width: 100%;
   text-align: center;
 }
 

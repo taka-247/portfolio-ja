@@ -3,32 +3,32 @@ import type { PortfolioData } from '../types';
 export const portfolioData: PortfolioData = {
   experience: {
     main: {
-      'Web Developer / Orchid': {
-        time: 'Feburary 2024 - April 2026 / Auckland, New Zealand',
-        text: 'As a full-stack developer, I engaged in complex client application development involving sophisticated UI collaborated with API integrations. I also leveraged not only development platform but also third-party platforms such as Firebase and Azure from architecture and business aspects. Navigating these technical challenges and delivering effective client solutions significantly accelerated my growth as a developer.',
+      'Webエンジニア / Orchid': {
+        time: '2024年2月 - 2026年4月 / オークランド, ニュージーランド',
+        text: 'フルスタックデベロッパーとして、高度なUIと多様なAPI連携を伴う複雑なクライアントアプリケーション開発に従事しました。開発プラットフォームのみならず、FirebaseやAzureといったサードパーティプラットフォームについても、アーキテクチャと事業の両側面から活用しています。こうした技術的課題を乗り越え、効果的なソリューションをクライアントに届ける経験は、デベロッパーとしての成長を大きく加速させてくれました。',
       },
-      'Web Developer / Mitsue-Links Co.,Ltd.': {
-        time: 'June 2021 - October 2023 / Tokyo, Japan',
-        text: "My role spanned both front-end and back-end development, primarily building corporate websites and SPAs using Next.js and Nuxt.js. I integrated CMS solutions to streamline content management for clients and optimized ongoing maintenance workflows. The company's strong commitment to accessibility in line with W3C standards has deeply shaped my own development philosophy.",
-        note: ["As for my development policy, please kindly click the 'Profile' tab button above."],
+      'Webエンジニア / 株式会社ミツエーリンクス': {
+        time: '2021年6月 - 2023年10月 / 東京, 日本',
+        text: 'フロントエンドとバックエンドの双方を担当し、主にNext.jsやNuxt.jsを用いたコーポレートサイトやSPAの構築に携わりました。CMSを統合してクライアント側でのコンテンツ管理を効率化し、運用フローの最適化にも取り組みました。同社のW3C基準に沿ったアクセシビリティへの強いこだわりは、現在の私自身の開発哲学にも深く影響を与えています。',
+        note: ["私の開発方針については、上部の「Profile」タブをご覧ください。"],
       },
-      'Web Developer / Sankaku Company': {
-        time: 'April 2019 - June 2021 / Tokyo, Japan',
-        text: "As a front-end developer, I delivered numerous corporate websites and SPAs across a high volume of concurrent projects. This fast-paced environment pushed me to grow rapidly and sharpen my skills under pressure. It also provided valuable opportunities to collaborate with external business partners, reinforcing my appreciation for effective teamwork in large-scale projects.",
+      'Webエンジニア / Sankaku Company': {
+        time: '2019年4月 - 2021年6月 / 東京, 日本',
+        text: 'フロントエンドデベロッパーとして、多数のコーポレートサイトやSPAを、複数案件を並行して進めながら制作しました。スピード感のある環境の中で、プレッシャー下でも素早くスキルを磨き、急速に成長することができました。また、外部ビジネスパートナーとの協業の機会も多く、大規模プロジェクトにおけるチームワークの大切さを改めて実感した経験でもあります。',
       },
     },
     other: {
-      'Strawberry Picker / Good Planet': {
-        time: 'Norvember 2023 - January 2023 / Auckland, New Zealand',
-        text: "Not only just picking strawberries but also pruning, thinning, and maintaining orchard equipment are my responsibilities. I'm focusing on effectiveness because it requires quickness and courteousness. I always thought 'what is the best way?' to satisfy both of them.",
+      'イチゴ収穫スタッフ / Good Planet': {
+        time: '2023年11月 - 2024年1月 / オークランド, ニュージーランド',
+        text: 'イチゴの収穫だけでなく、剪定や摘果、農機具のメンテナンスも担当業務に含まれていました。スピードと丁寧さの両立が求められるため、効率の最大化を常に意識し、「両者を満たす最善の方法は何か？」を考えながら作業に取り組みました。',
       },
-      'Sales and Tour Operator / JTB Corp.': {
-        time: 'April 2018 - April 2019 / Tokyo, Japan',
-        text: "My main responsibilities was sales and operating client's travel and convention but also including tour attendant jobs and simple interpretation.",
+      '営業・ツアーオペレーター / JTB Corp.': {
+        time: '2018年4月 - 2019年4月 / 東京, 日本',
+        text: 'クライアントの旅行・コンベンションの営業と運営を主な業務とし、ツアーアテンダント業務や簡単な通訳も担当しました。',
       },
-      'Tennis Coach / Konami Sports': {
-        time: 'April 2014 - April 2018 / Saitama, Japan',
-        text: 'As a tennis coach, I am dedicated to improving customers\' tennis skills, catering to individuals of all ages, from kids to elderly people, and from beginners to advanced players.',
+      'テニスコーチ / Konami Sports': {
+        time: '2014年4月 - 2018年4月 / 埼玉, 日本',
+        text: 'テニスコーチとして、お子様からご年配の方まで、また初心者から上級者まで、幅広い層の生徒さんのテニス上達に尽力しました。',
       },
       // 'Beverage Factory Worker': {
       //   time: 'November 2015 - June 2016 / Melbourne, Australia',
@@ -42,82 +42,82 @@ export const portfolioData: PortfolioData = {
         CLIENT: 'Kiwi Avoidance Training',
         TECHNOLOGY: 'React, TypeScript, Tailwind CSS, Node, Firebase',
         DETAILDS: [
-          'This app serves three user types: admins, trainers, and dog owners. In New Zealand, dog owners and their dogs are required to hold a valid training certificate to access national and regional parks, as well as other protected areas where regulations exist to safeguard native wildlife — including kiwi and penguins. Trainers can create and manage training sessions, while dog owners can browse and book them. The app provides an end-to-end system for managing bookings, training outcomes, and certificate issuance.',
+          'このアプリケーションは、管理者・トレーナー・犬の飼い主の3種類のユーザーを対象としています。ニュージーランドでは、キーウィやペンギンなどの在来野生動物を保護する目的で、国立公園や地域公園、その他の保護区域に犬を連れて立ち入る際、犬と飼い主が有効なトレーニング修了証を保有することが義務付けられています。トレーナーはトレーニングセッションの作成・管理を行い、飼い主はセッションの閲覧・予約が可能です。本アプリは、予約管理、トレーニング結果、修了証の発行までを一気通貫で扱えるシステムを提供しています。',
         ],
-        PERIOD: 'February 2025 - February 2026',
+        PERIOD: '2025年2月 - 2026年2月',
         LINK: 'https://app.kiwiavoidancetraining.nz',
       },
       imgPath: 'assets/img/works/kat',
       images: ['kat-1.png', 'kat-2.png', 'kat-3.png', 'kat-4.png', 'kat-5.png'],
-      srcText: ['Booking Page', 'Admin Page', 'Dog Owner Page', 'Training Certificate'],
+      srcText: ['予約ページ', '管理者ページ', '飼い主向けページ', 'トレーニング修了証'],
     },
     'IMG': {
       detail: {
         CLIENT: 'IMG Integrated Maintenance Group',
         TECHNOLOGY: 'React, TypeScript, Tailwind CSS, Node, MongoDB, Azure',
         DETAILDS: [
-          'This is an in-house attendance and payroll management system built with strict role-based access control. Employees can log their attendance, submit leave requests, and record detailed job information. Administrators, branch managers, and payroll officers have elevated access to monitor employee attendance and oversee payroll processing.',
+          '厳格なロールベースのアクセス制御を備えた、社内向けの勤怠・給与管理システムです。従業員は勤怠の打刻、休暇申請、業務内容の詳細な記録を行うことができ、管理者・支店マネージャー・給与担当者は、より高い権限のもとで従業員の勤怠状況の確認や給与処理を行えます。',
         ],
-        PERIOD: 'April 2025 - April 2026',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2025年4月 - 2026年4月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: 'assets/img/works/img',
       images: ['img-1.png', 'img-2.png', 'img-3.png', 'img-4.png', 'img-5.png'],
-      srcText: ['Timesheets Page', 'Add Timesheet', 'Jobs Page', 'Reporting Page'],
+      srcText: ['タイムシートページ', 'タイムシート追加', '案件ページ', 'レポートページ'],
     },
     'Overwatch': {
       detail: {
         CLIENT: 'Overwatch Inc.',
         TECHNOLOGY: 'React, TypeScript, MUI',
         DETAILDS: [
-          'Fleet owners, ship owners, and shipbuilding companies can register their vessels and monitor voyages through a rich set of tracking data — including speed, fuel consumption, sailing routes, and more. Administrators and permitted users can also run cross-vessel comparisons to evaluate and benchmark features and performance across the fleet.',
+          '船隊オーナー、船舶オーナー、造船会社が船舶を登録し、速度・燃料消費量・航行ルートなど、豊富な追跡データを通じて航海をモニタリングできるアプリケーションです。管理者および権限を持つユーザーは、船隊間の比較分析を行い、機能や性能をベンチマークすることも可能です。',
         ],
-        PERIOD: 'April 2024 - April 2026',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2024年4月 - 2026年4月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: 'assets/img/works/overwatch',
       images: ['overwatch-1.png', 'overwatch-2.png', 'overwatch-3.png', 'overwatch-4.png', 'overwatch-5.png'],
-      srcText: ['Fleet Dashboard Page', 'Fleet Page', 'Fleet Details Page', 'Analytics Page'],
+      srcText: ['船隊ダッシュボード', '船隊一覧ページ', '船隊詳細ページ', '分析ページ'],
     },
     'Desktop Trace': {
       detail: {
         CLIENT: 'Desktop Trace',
         TECHNOLOGY: 'Vue.js, Node, MongoDB',
         DETAILDS: [
-          'This app provides a powerful search platform for retrieving information across multiple data categories — including property, company, and vehicle records. Users can apply a variety of search patterns to quickly locate the data they need, primarily for business and due diligence purposes.',
+          '不動産、企業情報、車両情報など、複数のデータカテゴリを横断的に検索できる強力な検索プラットフォームです。ユーザーは多様な検索パターンを組み合わせて、業務上のリサーチやデューデリジェンス目的で必要な情報を迅速に取得できます。',
         ],
-        PERIOD: 'April 2024 - April 2026',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2024年4月 - 2026年4月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: 'assets/img/works/desktop-trace',
       images: ['desktop-trace-1.png', 'desktop-trace-2.png', 'desktop-trace-3.png', 'desktop-trace-4.png'],
-      srcText: ['Super Trace Page', 'Trace History Page', 'Admin Dashboard Page'],
+      srcText: ['スーパー検索ページ', '検索履歴ページ', '管理者ダッシュボード'],
     },
     'Corex': {
       detail: {
         CLIENT: 'CoreX Solutions',
         TECHNOLOGY: 'React, TypeScript, Node',
         DETAILDS: [
-          'This app is an in-house billing management system for creating and managing estimates, invoices, and credit notes. Users can handle internal records while also issuing these documents directly to their customers.',
+          '見積書・請求書・クレジットノートの作成と管理を行う社内向けの請求管理システムです。社内記録の管理だけでなく、顧客に対してこれらの書類を直接発行することもできます。',
         ],
-        PERIOD: 'April 2024 - April 2025',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2024年4月 - 2025年4月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: 'assets/img/works/corex',
       images: ['corex-1.png', 'corex-2.png', 'corex-3.png', 'corex-4.png', 'corex-5.png'],
-      srcText: ['Dashboard Page', 'Add Job Page', 'Edit Supplier Page', 'Settings Page'],
+      srcText: ['ダッシュボードページ', '案件追加ページ', '取引先編集ページ', '設定ページ'],
     },
-    'Tamagawa University Corporate Website': {
+    'Tamagawa University コーポレートサイト': {
       detail: {
         CLIENT: 'Tamagawa University',
         TECHNOLOGY: 'HTML5, CSS3, TypeScript, Movable Type',
-        DESIGN: 'UX, Animation',
+        DESIGN: 'UX, アニメーション',
         DETAILDS: [
-          'I was mainly in charge of a renewal of a huge university\'s Corporate Website with 4 team members.',
-          'My responsibilities were both the frontend and the backend, considering UX and animation, and team management. When it comes to the backend, I implemented my frontend development into Movable Type so that the client is also able to manage a plenty of contents by himself.',
-          'I experienced the almost all process of this huge project, so from project manager\'s perspective as well, I was able to develop with concentration on the project\'s scope, volumes and budget for each task, human resources, team and progress management, and so on.',
+          '4名のチームメンバーとともに、大規模な大学コーポレートサイトのリニューアル案件を主担当として進行しました。',
+          'UXとアニメーションを意識したフロントエンドからバックエンドまでの開発と、チームマネジメントを担当しました。バックエンドについては、私のフロントエンド実装をMovable Typeへ組み込むことで、クライアントが膨大なコンテンツを自身で管理できる仕組みを構築しました。',
+          '本大型案件のほぼ全工程を経験し、プロジェクトマネージャー視点からも、スコープ・工数・予算、人的リソース、チーム・進捗管理など、プロジェクト全体を俯瞰しながら開発を進めることができました。',
         ],
-        PERIOD: 'June 2022 - March 2023',
+        PERIOD: '2022年6月 - 2023年3月',
         LINK: [
           ['https://www.tamagawa.jp/', 'https://www.tamagawa.jp/university/', 'https://www.tamagawa.jp/academy/'],
           false,
@@ -126,57 +126,57 @@ export const portfolioData: PortfolioData = {
       imgPath: "assets/img/works/tamagawa",
       srcText: ['PC', 'SP'],
     },
-    'Actually Marketing Site': {
+    'Actually マーケティングサイト': {
       detail: {
         CLIENT: 'Actually Inc.',
         TECHNOLOGY: 'Next.js, TypeScript, Netlify',
         DETAILDS: [
-          'Marketing web site for Actually application',
+          'Actually アプリケーションのマーケティングサイト',
         ],
-        PERIOD: 'August 2024 - Octorber 2024',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2024年8月 - 2024年10月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: 'assets/img/works/actually',
       images: ['actually-1.png', 'actually-2.png', 'actually-3.png', 'actually-4.png', 'actually-5.png'],
-      srcText: ['Dashboard', 'Detail', 'Form'],
+      srcText: ['ダッシュボード', '詳細', 'フォーム'],
     },
-    'KP Fit Marketing Site': {
+    'KP Fit マーケティングサイト': {
       detail: {
         CLIENT: 'KP Fit',
         TECHNOLOGY: 'Next.js, TypeScript, Netlify',
         DETAILDS: [
-          'Marketing web site for KP Fit application',
+          'KP Fit アプリケーションのマーケティングサイト',
         ],
-        PERIOD: 'November 2024 - December 2024',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2024年11月 - 2024年12月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: 'assets/img/works/kp-fit',
       images: ['kp-fit-1.png', 'kp-fit-2.png', 'kp-fit-3.png'],
-      srcText: ['Top'],
+      srcText: ['トップ'],
     },
-    'BIDI Marketing Site': {
+    'BIDI マーケティングサイト': {
       detail: {
         CLIENT: 'BIDI Ltd.',
         TECHNOLOGY: 'Next.js, TypeScript, Netlify',
         DETAILDS: [
-          'Marketing web site for BIDI application',
+          'BIDI アプリケーションのマーケティングサイト',
         ],
-        PERIOD: 'January 2025 - February 2025',
+        PERIOD: '2025年1月 - 2025年2月',
         LINK: 'https://bidi.nz/',
       },
       imgPath: 'assets/img/works/bidi',
       images: ['bidi-1.png', 'bidi-2.png', 'bidi-3.png', 'bidi-4.png', 'bidi-5.png'],
-      srcText: ['Top', 'Listing', 'Detail'],
+      srcText: ['トップ', '一覧', '詳細'],
     },
     'Estimate Builder': {
       detail: {
-        CLIENT: 'In-house application',
+        CLIENT: '社内向けアプリケーション',
         TECHNOLOGY: 'Next.js, TypeScript, Netlify',
         DETAILDS: [
-          'This web app is designed for potential clients exploring application development services with us. It provides upfront answers to common pre-contract enquiries — including rough project estimates, development processes, and other key information — helping clients make informed decisions before moving forward.',
+          '当社にアプリ開発を検討してくださっている見込み顧客向けに設計したWebアプリです。おおまかな見積もり、開発プロセス、その他の重要な情報など、契約前によく寄せられる問い合わせに対する回答を事前に提供することで、クライアントが意思決定をスムーズに進められるよう支援します。',
         ],
-        PERIOD: 'February 2025 - March 2025',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2025年2月 - 2025年3月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: 'assets/img/works/estimate',
       images: [
@@ -188,16 +188,16 @@ export const portfolioData: PortfolioData = {
         'estimate-6.png',
         'estimate-7.png',
       ],
-      srcText: ['Top', 'Editor', 'Items', 'Summary', 'Preview', 'Export'],
+      srcText: ['トップ', 'エディタ', '項目', 'サマリー', 'プレビュー', 'エクスポート'],
     },
-    'Overwatch Marketing Site': {
+    'Overwatch マーケティングサイト': {
       detail: {
         CLIENT: 'Overwatch Inc.',
         TECHNOLOGY: 'Next.js, TypeScript, Netlify',
         DETAILDS: [
-          'Marketing web site for Overwatch application',
+          'Overwatch アプリケーションのマーケティングサイト',
         ],
-        PERIOD: 'June 2025 - August 2025',
+        PERIOD: '2025年6月 - 2025年8月',
         LINK: 'https://overwatch.hamiltonjet.com/',
       },
       imgPath: 'assets/img/works/overwatch-marketing',
@@ -209,293 +209,293 @@ export const portfolioData: PortfolioData = {
       ],
       srcText: ['', '', ''],
     },
-    'Nap Art App': {
+    'おひるねアート アプリ': {
       detail: {
-        CLIENT: 'Ohirune Art Association',
+        CLIENT: 'おひるねアート協会',
         TECHNOLOGY: 'Vue3',
         DESIGN: 'UX',
         DETAILDS: [
-          "I developed an SPA where users can create handmade artwork capturing their baby's cuteness and cherished moments by processing children's photos with provided background templates and decorative images through intuitive UI operations",
-          'The difficulties I faced in this project were related to the integration of the frontend and backend',
-          ' I was responsible not only for frontend development but also for integration, while the backend was developed by our partner company. However, their technologies, Twig and EC-CUBE, were completely unfamiliar to me, so I was somewhat confused when I first saw their code.',
-          "Nevertheless, with my consciously active effort to engage in meaningful conversations with a backend developer and quickly investigate their technologies, that initial confusion gradually dissipated, and I successfully reached completion.",
-          "The experience, including learning how to collaborate with others, how to efficiently investigate even unfamiliar information, and how to maintain composure during confusion to carry out what I should do, undoubtedly led to a significant growth in my development as a developer.",
+          'お子様の写真を、用意された背景テンプレートや装飾画像と直感的なUI操作で加工し、赤ちゃんの愛らしさや大切な瞬間を切り取った手づくり作品を作成できるSPAを開発しました。',
+          '本プロジェクトで直面した難所は、フロントエンドとバックエンドの統合作業でした。',
+          'フロントエンド開発に加えて統合作業も私が担当し、バックエンドはパートナー企業様によって開発されました。しかし、先方が使用していた技術（TwigおよびEC-CUBE）は私にとって完全に未経験のものであり、最初にコードを目にしたときには戸惑いがありました。',
+          'しかし、バックエンド開発者と密にコミュニケーションを取り、未経験技術を迅速に調査することを意識的に積み重ねた結果、最初の戸惑いは徐々に解消され、無事に完成までたどり着くことができました。',
+          '他者との協業の進め方、未経験領域の効率的な調査方法、混乱の中でも冷静さを保ち、なすべきことを遂行する姿勢——これらの経験は、デベロッパーとしての大きな成長につながったと確信しています。',
         ],
-        PERIOD: 'December 2020 - April 2021',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2020年12月 - 2021年4月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: "assets/img/works/nap",
       srcText: ['PC', 'SP'],
     },
-    'TOSO Corporate Website': {
+    'TOSO コーポレートサイト': {
       detail: {
         CLIENT: 'TOSO CO.,LTD.',
-        TECHNOLOGY: 'Vue3, API Integration',
-        DESIGN: 'Not In Charge',
+        TECHNOLOGY: 'Vue3, API連携',
+        DESIGN: '担当外',
         DETAILDS: [
-          'I developed a Corporate Website for a client specializing in interior furniture, particularly curtain-related products, with my team.',
-          'We chose to implement Vue.js because the website required a plenty of versatile UI elements and functionalities. Besides, the Website had to introduce their products with a variety of details, so we adopted Vue3 and API Integration to efficiently and easily manage them.',
-          'I learned Vue.js from the foundation to the advanced through this project.',
+          'インテリア家具、特にカーテン関連製品を主に扱うクライアントのコーポレートサイトを、チームで開発しました。',
+          'サイトに求められていたUI要素や機能が非常に多岐にわたっていたため、Vue.jsの採用を決定しました。また、製品紹介においても膨大なバリエーションの情報を扱う必要があり、これらを効率的かつ容易に管理するために、Vue3とAPI連携を採用しました。',
+          '本プロジェクトを通して、Vue.jsを基礎から応用まで体系的に習得することができました。',
         ],
-        PERIOD: 'Octorber 2020 - June 2021',
+        PERIOD: '2020年10月 - 2021年6月',
         LINK: [['https://www.toso.co.jp/'], false],
       },
       imgPath: "assets/img/works/toso",
       srcText: ['PC', 'SP'],
     },
-    'Schick Evangelion Collabo LP': {
+    'Schick × エヴァンゲリオン コラボLP': {
       detail: {
         CLIENT: 'Schick Japan K.K.',
         TECHNOLOGY: 'HTML5, CSS3, TypeScript',
-        DESIGN: 'UX, Animation',
+        DESIGN: 'UX, アニメーション',
         DETAILDS: [
-          "I developed Landing Page to promote client's products, mainly shaving, collaborated with famous Animation of Evangelion. Image of both shaving and Evangelion are something like masculine, powerful, and robotic, so I considered animations matching with such image and implemented the rich scroll-besed-animation.",
-          'I am very proud of myself that I developed this LP with short period.',
+          'クライアントのシェービング関連商品をプロモーションするため、人気アニメ「エヴァンゲリオン」とのコラボレーションによるランディングページを開発しました。シェービングとエヴァンゲリオンには「力強さ」「メカニカル」「マスキュリン」といった共通のイメージがあるため、それに合うアニメーションを構想し、リッチなスクロールベースのアニメーションを実装しました。',
+          '短い期間ながら、こだわりを持って制作しきったLPであり、自分自身でも特に印象に残っている案件です。',
         ],
-        PERIOD: 'January 2021 - February 2021',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2021年1月 - 2021年2月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: "assets/img/works/schick",
       srcType: 'movie',
-      srcText: ['MOVIE PC', 'MOVIE SP'],
+      srcText: ['動画 PC', '動画 SP'],
     },
-    'Calendar App': {
+    'カレンダーアプリ': {
       detail: {
-        CLIENT: 'Private Project',
+        CLIENT: '個人プロジェクト',
         TECHNOLOGY: 'React, Express',
-        DESIGN: 'All with Adobe XD',
+        DESIGN: 'Adobe XDですべて制作',
         DETAILDS: [
-          'I created a calendar app to deepen my understanding of two aspects: the latest technologies in React and the integration of client-side and server-side development.',
-          'In my previous workplace, there were cases where responsibilities were highly specialized, leading to separate development of front-end and back-end. This often resulted in integrating these components in the final stages of the project.',
-          'Therefore, wanting to enhance my understanding of the integration, I intentionally assumed separate development responsibilities for each and created them in distinct repositories, then integrated these components via a proxy server.',
-          'As a result, I gained valuable insights into optimal project directory structures, HTTP endpoint configurations, proxy server setup, and use cases for such development methodologies.',
+          'Reactにおける最新技術と、クライアントサイドとサーバーサイドの統合という2つの観点について、理解を深めるためにカレンダーアプリを制作しました。',
+          '前職では役割分担が明確に分かれていたため、フロントエンドとバックエンドが別々に開発され、プロジェクト終盤にようやく統合されるケースが多くありました。',
+          'そのため、統合作業への理解を深めたいという思いから、あえてフロントエンドとバックエンドの役割を分け、別々のリポジトリで開発したうえで、プロキシサーバーを介してそれらを統合する構成を採用しました。',
+          '結果として、最適なプロジェクトディレクトリ構成、HTTPエンドポイント設計、プロキシサーバーのセットアップ、そしてこうした開発手法を採用すべきユースケースに関する貴重な知見を得ることができました。',
         ],
-        PERIOD: 'July 2023 - September 2023',
+        PERIOD: '2023年7月 - 2023年9月',
         LINK: [
           ['https://tika-calendar-app.glitch.me/'],
-          'System does not work because this app is developed with PHP8 and cannot prepare PaaS supporting PHP8',
+          'PHP8で開発されており、対応するPaaS環境を用意できないため、現在は動作しません。',
         ],
       },
       imgPath: "assets/img/works/calendar",
       srcText: ['PC', 'SP'],
     },
-    'Flash Card App': {
+    'フラッシュカードアプリ': {
       detail: {
-        CLIENT: 'Private Project',
+        CLIENT: '個人プロジェクト',
         TECHNOLOGY: 'Vue3, TypeScript, Express',
-        DESIGN: 'All with Adobe XD',
+        DESIGN: 'Adobe XDですべて制作',
         DETAILDS: [
-          'To deepen my understanding of Vue.js and to consolidate usage of best practice for data manipulation, I developed Flash Card App with modern App design.',
-          'I actively used new Vue.js functionality at that moment, such as script setup mode, v-memo, provide, and inject in reference well to official documents. In addition to I focused on decent data manipulation as reinvestigating usages of Axious and Vuex, and the concept of Restful API.',
-          'What I re-realized this time was the importance of updating my knowledge about the web and incorporating the latest technologies into everyday web development by regularly developing private applications and delving deep into specific fields.',
-          'Regarding Vue.js, there had been significant updates since my previous knowledge, improving code readability and performance in app development. This development project was a valuable experience for me to familiarize myself with the latest Vue.js advancements.',
+          'Vue.jsへの理解を深め、データ操作のベストプラクティスを定着させるため、モダンなアプリ設計でフラッシュカードアプリを開発しました。',
+          'script setup記法、v-memo、provide / inject など、当時の最新のVue.js機能を公式ドキュメントを参照しながら積極的に活用しました。また、AxiosやVuex、RESTful APIの概念を改めて見直し、適切なデータ操作にも注力しました。',
+          '今回再認識したのは、Webに関する知識を継続的にアップデートし、個人開発や特定領域の深堀りを通じて、最新技術を日々の開発に取り入れていくことの重要性でした。',
+          'Vue.jsについても、以前の知識から大幅なアップデートがあり、コードの可読性や開発時のパフォーマンスが大きく向上していました。本プロジェクトは、最新のVue.jsに慣れ親しむ上でも非常に有益な経験となりました。',
         ],
-        PERIOD: 'August 2022 - December 2022',
+        PERIOD: '2022年8月 - 2022年12月',
         LINK: [
           ['https://tika-flashcard.glitch.me/'],
-          'It might take time to activate because this app is on PaaS and needs to be set up',
+          'PaaS上に配置されており、起動準備のため表示まで時間がかかる場合があります。',
         ],
       },
       imgPath: "assets/img/works/flash",
       srcText: ['PC', 'SP'],
     },
-    'Chat App': {
+    'チャットアプリ': {
       detail: {
-        CLIENT: 'Private Project',
+        CLIENT: '個人プロジェクト',
         TECHNOLOGY: 'Vue3, TypeScript, Express',
-        DESIGN: 'All with Adobe XD',
+        DESIGN: 'Adobe XDですべて制作',
         DETAILDS: [
-          "I privately developed Chat App imitating some WhatsApp App functionalities. The core of the App is the mutual communication realized by Websocket implemented with Node.js's Socket.IO library.",
-          'Until then, I only knew HTTP as the communication protocol between the client-side and server-side. However, through this project, I learned about a new communication protocol called WebSocket, and I gained an understanding of its usefulness. Particularly, the ability to send information from the server-side to the client-side, which is not present in HTTP, was a concept that I found meaningful for future web application development.',
+          'WhatsAppの一部機能を模したチャットアプリを個人開発しました。本アプリの中核は、Node.jsのSocket.IOライブラリを用いて実装したWebSocketによる双方向通信です。',
+          'それまで、クライアントとサーバー間の通信プロトコルとしてはHTTPしか知りませんでしたが、本プロジェクトを通してWebSocketという新しい通信プロトコルを学び、その有用性を理解することができました。特に、HTTPにはないサーバー側からクライアント側への情報送信が可能である点は、今後のWebアプリケーション開発において意義ある概念だと感じました。',
         ],
-        PERIOD: 'February 2022 - June 2022',
+        PERIOD: '2022年2月 - 2022年6月',
         LINK: [
           ['https://snow-chat.glitch.me/'],
-          'It might take time to activate because this app is on PaaS and needs to be set up',
+          'PaaS上に配置されており、起動準備のため表示まで時間がかかる場合があります。',
         ],
       },
       imgPath: "assets/img/works/chat",
       srcText: ['PC', 'SP'],
     },
-    'My Inquiry Form Template': {
+    'お問い合わせフォーム テンプレート': {
       detail: {
-        CLIENT: "Template for Client's Inquiry Form",
+        CLIENT: 'クライアント向けお問い合わせフォームのテンプレート',
         TECHNOLOGY: 'PHP, HTML5, CSS3',
-        DESIGN: 'All with Adobe XD',
+        DESIGN: 'Adobe XDですべて制作',
         DETAILDS: [
-          'In my previous company, we received many requests to create an inquiry form, so I developed a template which is fully covering any potential security risk and customizable for any irregular form elements',
-          'As a result, we was able to not only successfully shortened the development period, but also by showing the template to client when received, it became easier  for project managers to suggest and explain to clients what is important on inquiry form and how would its functionalities become.',
+          '前職ではお問い合わせフォーム制作の依頼が多かったため、潜在的なセキュリティリスクを十分にカバーし、かつイレギュラーなフォーム要素にも柔軟に対応できるテンプレートを作成しました。',
+          'その結果、開発期間の短縮を実現できただけでなく、初回ヒアリング時にテンプレートをクライアントへお見せすることで、プロジェクトマネージャーがお問い合わせフォームにおいて重要なポイントや機能要件をわかりやすく説明・提案しやすくなるという副次的な効果もありました。',
         ],
-        PERIOD: 'April 2023 - June 2023',
+        PERIOD: '2023年4月 - 2023年6月',
         LINK: [
           ['https://tika-inquiry-form.glitch.me/'],
-          'System does not work because this app is developed with PHP8 and cannot prepare PaaS supporting PHP8',
+          'PHP8で開発されており、対応するPaaS環境を用意できないため、現在は動作しません。',
         ],
       },
       imgPath: "assets/img/works/inquiry",
       srcText: ['PC', 'SP'],
     },
-    'Desktop App for Deliverables': {
+    '納品物管理用デスクトップアプリ': {
       detail: {
-        CLIENT: 'Private Project',
-        TECHNOLOGY: 'Electron, Node.js, Vue3, TypeScript, Shell Scripting, Git command',
-        DESIGN: 'All with Adobe XD',
+        CLIENT: '個人プロジェクト',
+        TECHNOLOGY: 'Electron, Node.js, Vue3, TypeScript, シェルスクリプト, Gitコマンド',
+        DESIGN: 'Adobe XDですべて制作',
         DETAILDS: [
-          'I developed this Desktop Application to reduce the working hours spent on chronic routine tasks.',
-          'In my previous company, we had one client paying us over $2,000,000 annually and giving a plenty of tasks almost all day and parallelly. When each task finished, they required us a unique workflow for delivering a creation to get rid of any problems. That workflow was done with Git and double-check by other team member, and easy for one step but needed many steps to be done, such as frequent branch changes, or request message for double-check to others. Additionally this workflow had to be done many times a day by almost of all members of our team. It means that the total time spending for this client was huge.',
-          'Therefore I developed this App. By filling the blanks with necessary information for the workflow on the application screen, it became possible to automatically and mechanically complete the followings, to switch branches, to generate request messages to other team members, and to detect potential errors. In other words, the workflow became to be done with a few steps.',
-          'Consequently this App significantly contributed to reducing time within the team.',
+          '慢性的なルーチン作業に費やしている工数を削減するため、本デスクトップアプリケーションを開発しました。',
+          '前職では、年間2,000,000ドル以上を支払ってくださる主要クライアントから、ほぼ一日中、並行して大量のタスクを依頼されていました。各タスクが完了するたびに、不具合を防ぐためのユニークな納品ワークフローを実施する必要があり、これはGit操作と他メンバーによるダブルチェックから成る、一見シンプルでありながら、ブランチの頻繁な切り替えや他メンバーへのレビュー依頼メッセージの送信など、多くのステップを要するものでした。さらに、このワークフローはチームのほぼ全員が、毎日何度も実施するもので、結果として当該クライアント対応に費やす総時間は膨大なものとなっていました。',
+          'そこで本アプリを開発しました。画面上のフォームにワークフローに必要な情報を入力するだけで、ブランチの切り替え、他メンバーへのレビュー依頼メッセージの生成、潜在的なエラー検知などを自動・機械的に実行できるようになりました。つまり、複数ステップを要していたワークフローを、数クリックで完了できるようにしたのです。',
+          '結果として、本アプリはチーム全体の作業時間削減に大きく貢献しました。',
         ],
-        PERIOD: 'November 2022 - April 2023',
-        LINK: 'Non Available for Compliance Reason',
+        PERIOD: '2022年11月 - 2023年4月',
+        LINK: 'コンプライアンスの都合により非公開',
       },
       imgPath: "assets/img/works/desktop",
       srcType: 'desktop',
       srcText: [
-        '1: Enter details about deliverables and click the start button',
-        '2: Check if deliverables have no problem with WinMerge which is automatically shown up by App',
-        '3: Click the check button to detect potential problems',
-        '4: Confirm the problems according to the error messages',
-        '5: Fix the problems, then click the check button again',
-        '6: If all OK, App tells you that deliverables have no problem',
+        '1: 納品物の詳細を入力し、スタートボタンをクリック',
+        '2: アプリが自動的に表示するWinMergeで、納品物に問題がないか確認',
+        '3: チェックボタンをクリックし、潜在的な問題を検出',
+        '4: エラーメッセージに従って問題内容を確認',
+        '5: 問題を修正し、再度チェックボタンをクリック',
+        '6: すべて問題がなければ、アプリが納品物に問題がない旨を通知',
       ],
     },
   },
   strength: {
     Communicative: {
       intro: [
-        'I pride myself on being an effective communicator — with both team members and clients. To ensure collaboration runs smoothly, I focus on three core principles.',
+        'チームメンバーともクライアントとも、効果的にコミュニケーションを取れることが私の強みのひとつです。円滑な協業を実現するため、特に次の3つの原則を大切にしています。',
       ],
       points: [
         {
-          title: "Understanding Others' Perspectives",
+          title: '他者の視点を理解する',
           description:
-            "I create space for others to express themselves openly — fostering a comfortable atmosphere, allowing enough time for thoughtful dialogue, and listening carefully with targeted questions that draw out the full picture.",
+            '相手が安心して自分の考えを表現できるよう、心地よい雰囲気づくり、十分な対話の時間、そして全体像を引き出すための的を射た質問と、丁寧な傾聴を意識しています。',
         },
         {
-          title: 'Expressing My Own Views',
+          title: '自分の意見を表現する',
           description:
-            "When sharing my opinion, I'm intentional about how I communicate — considering both clarity and the emotional impact my words may have on others' feelings and motivation. At the same time, I'm not afraid to bring genuine emotion into the conversation when the situation calls for it, because I believe authenticity strengthens trust.",
+            '自分の意見を伝える際には、言葉の明確さと、それが相手の感情やモチベーションに与える影響の両面に配慮しています。同時に、必要な場面では率直な感情を込めることもためらいません。真摯な姿勢が、信頼関係を強くすると考えているからです。',
         },
         {
-          title: "Acknowledging Context and Circumstance",
+          title: '背景や状況を踏まえる',
           description:
-            "Opinions don't exist in a vacuum. A person's thoughts are shaped by their current situation, personality, and background. I make a conscious effort to look beyond what's being said and consider the underlying factors that led someone to their perspective — because真 understanding often lies between the lines.",
+            '意見は真空の中で生まれるものではありません。人の考えは、その時の状況、性格、これまでの経験によって形作られています。語られている言葉の表面だけでなく、その背後にある要因にまで意識を向けるようにしています。真の理解は、しばしば「行間」にあると考えているからです。',
         },
       ],
     },
     Consideration: {
       intro: [
-        'Consideration is at the core of how I work. It shapes the way I communicate, make decisions, and build — and I believe it consistently leads to better outcomes for teams, projects, and end users alike. Here are three areas where this shows up most in my work.',
+        '「思いやり」は、私の仕事の根幹にあるものです。コミュニケーション、意思決定、開発の進め方に至るまで、その姿勢は反映されており、結果として、チーム、プロジェクト、エンドユーザーすべてに、より良い成果をもたらすと信じています。特に次の3つの場面でその姿勢を意識しています。',
       ],
       points: [
         {
-          title: 'Consideration for Others',
+          title: '他者への配慮',
           description:
-            'I make a consistent effort to be aware of the perspectives and needs of those around me. By genuinely accounting for how teammates think and feel, I help foster a collaborative atmosphere where people work well together and feel valued.',
+            '周囲の人々の視点やニーズを常に意識するよう努めています。チームメンバーがどのように考え、何を感じているかを真摯に汲み取ることで、互いに尊重しあい、協働しやすい雰囲気づくりに貢献しています。',
         },
         {
-          title: 'Consideration in Decision-Making',
+          title: '意思決定における配慮',
           description:
-            "I approach decisions deliberately — gathering and analysing information thoroughly before drawing conclusions, and weighing the potential impact on both immediate goals and longer-term objectives. I'd rather take the time to think things through than move fast in the wrong direction.",
+            '意思決定は慎重に行います。結論を出す前に十分な情報収集と分析を行い、直近の目標と長期的な目的の双方への影響を見極めます。誤った方向に素早く進むよりも、時間をかけて熟考することを大切にしています。',
         },
         {
-          title: 'Consideration for UI & UX',
+          title: 'UI / UXへの配慮',
           description:
-            'As a developer, I actively step outside my own perspective and think like the people who will actually use or release the product. That means factoring in accessibility, usability, performance, and readability — not as afterthoughts, but as integral parts of the development process.',
+            'デベロッパーとして、自分自身の視点から一歩離れ、実際にプロダクトを利用したり公開したりする立場の人々の視点で考えるよう心がけています。アクセシビリティ、ユーザビリティ、パフォーマンス、可読性を後付けではなく、開発プロセスの中核として組み込んでいます。',
         },
       ],
     },
     'Growth-mindset': {
       intro: [
-        'I take a proactive approach to identifying opportunities for improvement — whether that means streamlining a daily process, solving a recurring problem, or finding a smarter way to work. In my experience, this mindset consistently leads to meaningful gains in efficiency and team productivity.',
+        '私は、改善の余地を主体的に見つけ出すことを大切にしています。日々の業務フローの効率化、繰り返し発生する課題の解決、よりスマートな進め方の模索など、こうした姿勢は、効率性とチームの生産性に確かな効果をもたらしてきたと実感しています。',
       ],
       points: [
         {
-          title: 'Learning Beyond the Obvious',
+          title: '表面を超えて学ぶ',
           description:
-            'While many developers focus primarily on learning new languages and frameworks, I place equal value on mastering the tools and techniques that accelerate everyday work. This includes regex, Linux commands, useful npm packages, VSCode extensions, and developing a deeper understanding of the development tools I use daily — the kind of knowledge that quietly compounds over time.',
+            '多くのデベロッパーが新しい言語やフレームワークの習得に注力しがちですが、私は日々の業務を加速させるツールやテクニックの習熟にも同じくらい価値を置いています。正規表現、Linuxコマンド、有用なnpmパッケージ、VSCode拡張機能、そして普段使う開発ツールのより深い理解——こうした、時間とともに静かに複利的に効いてくる知識を重視しています。',
         },
         {
-          title: 'Building Tools That Save Time',
+          title: '時間を生み出すツールを自ら作る',
           description:
-            'At my previous company, I identified a set of chronic, time-consuming routine tasks and took the initiative to build a desktop application using Electron to address them. With an intuitive UI, the app consolidated manual processes — including file transfers, message sending, and Git operations — into just a few interactions. The result was a significant reduction in working hours across the entire team.',
+            '前職では、慢性的かつ時間のかかるルーチン業務を特定し、Electronを用いたデスクトップアプリの開発を自発的に推進しました。直感的なUIにより、ファイル送信、メッセージ送付、Git操作など複数の手作業を、数回の操作で完了できるよう統合しました。結果として、チーム全体の作業時間を大幅に削減することができました。',
         },
         {
-          title: 'A Culture of Sharing',
+          title: '共有する文化',
           description:
-            "I actively share useful discoveries, techniques, and tools with my teammates. I believe that when knowledge flows freely within a team, it creates a self-reinforcing cycle of improvement — where everyone naturally raises their standard of work together.",
+            '有用な発見、テクニック、ツールは、積極的にチームメンバーへ共有するようにしています。チーム内で知識が自由に流通することで、改善が連鎖し、自然と全員の仕事のレベルが引き上がっていく好循環が生まれると考えています。',
         },
       ],
     },
     'Detail-oriented': {
       intro: [
-        'I bring a keen attention to detail to everything I work on. I firmly believe that thoroughness directly shapes the quality of a project — and quality is something I refuse to compromise on.',
-        'In web development, that means going well beyond surface-level code. I focus on four dimensions that I consider essential to any well-built product.',
+        '私は、すべての仕事に対して細部への強いこだわりを持って取り組んでいます。徹底度がプロジェクトの品質を直接左右すると確信しており、品質に妥協することは決してありません。',
+        'Web開発において、それはコードの表層を超えたところに表れます。私が特に重視している4つの観点をご紹介します。',
       ],
       points: [
         {
-          title: 'Accessibility',
-          description: 'Every service should be usable by everyone, regardless of ability or circumstance. I build with inclusivity in mind from the outset, not as an afterthought.',
+          title: 'アクセシビリティ',
+          description: 'あらゆるサービスは、能力や状況に関わらず、誰にでも利用できるべきです。私は最初からインクルーシビティを念頭に置き、後付けではなく開発の出発点から取り組んでいます。',
         },
         {
-          title: 'Performance',
-          description: 'A great product should work seamlessly across any device or environment. I optimise consistently to ensure smooth, reliable experiences under real-world conditions.',
+          title: 'パフォーマンス',
+          description: '優れたプロダクトは、どのようなデバイスや環境であっても、滑らかに動作すべきです。実環境においても安定した体験を提供できるよう、継続的に最適化を行っています。',
         },
         {
-          title: 'Usability',
+          title: 'ユーザビリティ',
           description:
-            'Interfaces should feel intuitive to a wide range of users. I design and implement UI and UX with clarity and ease of use as guiding principles — so that anyone can navigate a product confidently.',
+            'インターフェースは、幅広いユーザーにとって直感的であるべきです。明快さと使いやすさを設計指針として、UIとUXを設計・実装することで、誰もが自信を持って操作できるプロダクトを目指しています。',
         },
         {
-          title: 'Readability',
+          title: '可読性',
           description:
-            'Clean, well-structured code is a form of craftsmanship. I write with future maintainability in mind, because readable code makes for more robust, sustainable systems.',
+            '整理され、構造化されたコードは、ひとつの職人技だと考えています。将来の保守性を念頭に置いて書くことで、より堅牢で持続可能なシステムにつながります。',
         },
       ],
     },
     Studious: {
       intro: [
-        "I make a consistent effort to deepen and broaden my understanding of programming languages and core concepts. This isn't just about keeping pace with the rapid evolution of the industry — it's about continuously expanding what I can bring to a company and its projects.",
-        'My approach to continuous learning comes down to three habits I keep every day.',
+        'プログラミング言語や中核概念の理解を、深く広く磨き続けるよう日々努めています。これは業界の急速な進化に追いつくためだけではなく、企業やプロジェクトに提供できる価値を継続的に広げていくためでもあります。',
+        '継続的な学習に向けて、私が毎日意識している3つの習慣をご紹介します。',
       ],
       points: [
         {
-          title: 'Investigate in the Moment',
+          title: 'その場で調べる',
           description:
-            'When I encounter something unfamiliar during work, I address it promptly. If researching it would take significant time, I take notes and set aside dedicated time to explore it properly — so nothing gets glossed over.',
+            '業務中に未知の事柄に出会ったときは、すぐにその場で対応するようにしています。深い調査が必要な場合はメモを取り、別途まとまった時間を確保してきちんと向き合います。「なんとなく」で流さないことを徹底しています。',
         },
         {
-          title: 'Daily Learning Block',
+          title: '毎日の学習ブロック',
           description:
-            'I reserve 30 minutes each day specifically for exploring new technologies or strengthening areas where my understanding could be deeper. Consistency, even in small doses, adds up significantly over time.',
+            '毎日30分を、新しい技術の探索や、理解が浅い領域の補強に充てています。小さな積み重ねでも、継続することで時間とともに大きな差になります。',
         },
         {
-          title: 'Personal Projects as a Learning Tool',
+          title: '学びのための個人プロジェクト',
           description:
-            'When a breakthrough technology warrants deeper understanding, I initiate a personal project around it. Hands-on trial and error is, for me, the most effective way to move from surface-level familiarity to genuine confidence.',
+            '深く理解する価値のある画期的な技術に出会ったときは、それを題材にした個人プロジェクトを立ち上げます。実際に手を動かしながらの試行錯誤こそ、表面的な理解から本当の自信へと到達する最も効果的な方法だと考えています。',
         },
       ],
     },
     Adaptability: {
       intro: [
-        "Adaptability is, in my view, one of the most essential traits for anyone working in the IT field — and it's something I've made a conscious effort to cultivate throughout my career. Here's why I consider it non-negotiable.",
+        '私の考えでは、適応力はIT業界に身を置く者にとって最も欠かせない資質のひとつであり、キャリアを通じて意識的に磨いてきた力です。なぜそれが譲れない要素なのか、その理由をお伝えします。',
       ],
       points: [
         {
-          title: 'Technology Moves Fast',
+          title: '技術は速く動く',
           description:
-            "The landscape shifts constantly, and the best approach today may be outdated tomorrow. Adaptability and quick learning are what allow me to make well-informed proposals, choose the right tools for each project, and deliver in a way that reflects the current state of the field — not yesterday's best practices.",
+            'テクノロジーの状況は絶えず変化し、今日のベストプラクティスが明日には時代遅れになることもあります。適応力と素早い学習力があるからこそ、的確な提案を行い、各プロジェクトに最適なツールを選び、過去のベストではなく今の最善を反映した形で成果を届けることができます。',
         },
         {
-          title: 'Collaboration with People',
+          title: '人との協業',
           description:
-            'Development is rarely a solo endeavour. Projects bring together people of different roles, backgrounds, and technical specialisms. Adapting to different working styles and communication needs is what keeps collaboration productive and projects moving forward.',
+            '開発は、ほとんどの場合ひとりで完結する仕事ではありません。プロジェクトには、異なる役割、背景、技術的専門性を持つ人々が集まります。多様な働き方やコミュニケーションのニーズに適応することこそが、協業を生産的に保ち、プロジェクトを前に進めていく原動力になります。',
         },
         {
-          title: 'Time Is Almost Always Limited',
+          title: '時間は常に限られている',
           description:
-            "Tight deadlines, schedule slippages, and last-minute mockup requests are a reality of development work. In those moments, there's no luxury of a gradual adjustment period — adaptability means being ready to shift focus, recalibrate, and perform under pressure without losing momentum.",
+            '厳しい納期、スケジュールのずれ込み、直前のデザイン変更——これらは開発業務における日常的な現実です。そうした場面では、ゆっくり調整する余裕はありません。適応力とは、焦点をすばやく切り替え、状況を捉え直し、勢いを保ったままプレッシャー下でも成果を出せる力だと考えています。',
         },
       ],
     },

@@ -8,7 +8,7 @@ export function Experience() {
   return (
     <div className="experience">
       <h2 className="tab__hdg">EXPERIENCE</h2>
-      <p className="tab__lead">Career / Experience as Web Developer</p>
+      <p className="tab__lead">経歴・経験</p>
 
       <ul className="experience__list">
         {mainEntries.map(([name, entry], i) => (
@@ -30,7 +30,7 @@ export function Experience() {
       </ul>
 
       <p className="tab__lead">
-        Experiences Outside Web Development That Shaped Who I Am
+        Web開発以外の、今の自分を形作った経験
       </p>
 
       <ul className="experience__list">
