@@ -33,6 +33,9 @@ export default defineConfig({
       },
     },
   ],
+  server: {
+    open: true, // opens in your default system browser
+  },
   resolve: {
     alias: { '@': path.resolve(__dirname, 'client') },
   },

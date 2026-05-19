@@ -1,6 +1,6 @@
 export interface ExperienceEntry {
   time: string;
-  text: string;
+  text: string | string[];
   note?: string[];
 }
 
