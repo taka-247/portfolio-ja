@@ -82,6 +82,20 @@ export const portfolioData: PortfolioData = {
       images: ['overwatch-1.png', 'overwatch-2.png', 'overwatch-3.png', 'overwatch-4.png', 'overwatch-5.png'],
       srcText: ['船隊ダッシュボード', '船隊一覧ページ', '船隊詳細ページ', '分析ページ'],
     },
+    'IgniteMe': {
+      detail: {
+        CLIENT: 'Private Project',
+        TECHNOLOGY: 'Dart, Flutter, Node, Supabase',
+        DETAILDS: [
+          'Dart、そのフレームワークであるFlutterへの理解を深めるため開発した個人プロジェクトで、ユーザーの日々の生産性向上を目的としたモバイルアプリケーション。ユーザーは1日の生産性向上のために予めアプリ内で用意されたコンポーネント（コミットメンt）をカスタマイズして、達成と未達成を登録することができる。TODOアプリやスケジュール管理アプリではなく、あくまでルーティーン形成と継続による日々の生産性向上に特化したアプリ。',
+        ],
+        PERIOD: '2026年2月 -',
+        LINK: '非公開',
+      },
+      imgPath: 'assets/img/works/ignite-me',
+      images: ['ignite-me-1.png', 'ignite-me-2.png', 'ignite-me-3.png', 'ignite-me-4.png'],
+      srcText: ['ログインページ', 'ホームページ', 'コミットメントページ', 'インサイトページ'],
+    },
     'Desktop Trace': {
       detail: {
         CLIENT: 'Desktop Trace',
